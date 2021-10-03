@@ -8,10 +8,10 @@ import asyncio
 def buttonmap(item):
     quality = item['format']
     if "audio" in quality:
-        return [InlineKeyboardButton(f"{quality} 🎵🎧 {humanbytes(item['filesize'])}",
+        return [InlineKeyboardButton(f"{quality} 🎧 {humanbytes(item['filesize'])}",
                                      callback_data=f"ytdata||audio||{item['format_id']}||{item['yturl']}")]
     else:
-        return [InlineKeyboardButton(f"{quality} 📹▶️ {humanbytes(item['filesize'])}",
+        return [InlineKeyboardButton(f"{quality} 🎥 {humanbytes(item['filesize'])}",
                                      callback_data=f"ytdata||video||{item['format_id']}||{item['yturl']}")]
 
 # Return a array of Buttons

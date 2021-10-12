@@ -12,8 +12,7 @@
     - install dependencies
     - python3 -m bot
     
-## Thanks ❤️
-* [Spechide](https://telegram.dog/SpEcHIDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
-* [HasibulKabir](https://telegram.dog/HasibulKabir)
+## Support 
+* [join support ](https://t.me/joinchat/vcOhk8tX214zNGQ1) for [Yt download bot](https://t.me/Yt_loaderrobot)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/killersparrow0/Youtube-Dl-Bot)
